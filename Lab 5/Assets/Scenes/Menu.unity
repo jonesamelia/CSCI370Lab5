@@ -938,7 +938,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Winter Pirate Game
+  m_text: Winter Pirates
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e799f4b117fafd64e864fd787a44125e, type: 2}
   m_sharedMaterial: {fileID: -7282274441330095381, guid: e799f4b117fafd64e864fd787a44125e, type: 2}
