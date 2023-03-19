@@ -18,13 +18,13 @@ public class Finder : MonoBehaviour
     
     void Start () {
         agent = GetComponent<NavMeshAgent>();
-        agent.destination = goal.position; 
         animator = body.GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update() {
+        agent.destination = goal.position; 
         animator.SetFloat("speed", agent.velocity.sqrMagnitude);
         if (Input.GetMouseButtonDown(0) && (!agent.isStopped))
         {
