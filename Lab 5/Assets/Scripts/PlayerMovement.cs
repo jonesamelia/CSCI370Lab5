@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         if (v != Vector3.zero) {
             gameObject.transform.forward = v;
         }
-        rigidbody.velocity = v + new Vector3(0, rigidbody.velocity.y, 0);
+        // rigidbody.velocity = v + new Vector3(0, rigidbody.velocity.y, 0);
 
     }
 
